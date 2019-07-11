@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Plant Disease Detector</title>
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+input[type=submit]{
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=file] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  align-self: center;
+}
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  align-self: auto;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+<body style="background-color: #45a049">
+
+<h1 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Plant Disease Detector</h1>
+<br>
+<div>
+  <form action="fileupload" method="post" enctype="multipart/form-data">
+    <label style="font-size:24px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif" for="fname">Upload or Capture the leaf of a plant</label><br><br><br>
+    <input type="file" name="filetoupload" /><br><br><br>
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
